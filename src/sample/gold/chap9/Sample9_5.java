@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 
 public class Sample9_5 {
 	public static void main(String[] args) {
-		Path path1 = Paths.get("./src/gold/chap9/ren");
+		Path path1 = Paths.get("./src/sample/gold/chap9/ren");
 		System.out.format("normalize()    : %s%n", path1.normalize());
 		System.out.format("toUri()        : %s%n", path1.toUri());
 		System.out.format("isAbsolute     : %s%n", path1.isAbsolute());
